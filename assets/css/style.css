@@ -8389,7 +8389,10 @@ a, span {
 -----------------------*/
 
 .pricing {
-	padding-bottom: 70px;
+  padding-bottom: 70px;
+  background-image: url(../images/demo-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pricing.pricing--page .section-title h2 {
@@ -8451,7 +8454,7 @@ a, span {
 }
 
 .pricing__item:hover .primary-btn {
-	background: #f3bd00;
+	background: #ff2143;
 }
 
 .pricing__item .pricing__item__title {
@@ -8475,7 +8478,7 @@ a, span {
 
 .pricing__item .pricing__item__title h2 {
 	font-size: 50px;
-	color: #f3bd00;
+	color: #ff2143;
 	font-weight: 700;
 	margin-top: 4px;
 	margin-bottom: 18px;
