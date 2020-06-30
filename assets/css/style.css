@@ -3520,14 +3520,14 @@ hero-btn {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: 650px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 500px;
+    height: 650px;
   }
 }
 
