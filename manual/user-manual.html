@@ -10,6 +10,94 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+	.step__header {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.step__body {
+  margin-left: 2rem;
+}
+
+.step:not(:last-child) .step__body {
+  margin-bottom: 3rem;
+}
+
+.step__text:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.step__list {
+  margin: auto;
+  margin-top: 32rem;
+}
+
+.step__item {
+  width: 35rem;
+  float: left;
+  min-height: 48.5rem;
+  padding: 3rem;
+  position: relative;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color: #f4f4f4;
+}
+
+.step__item:not(:first-of-type) {
+  margin-left: -8rem;
+}
+
+.step__number {
+  font-size: 12rem;
+  opacity: 0.2;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.step__content {
+  width: 22rem;
+  float: right;
+  text-align: right;
+  margin-top: -6rem;
+}
+
+.step__title {
+  color: #c52847;
+  font-size: 2.4rem;
+}
+
+.step__description {
+  margin-bottom: 2rem;
+}
+
+.step__img {
+  width: 3rem;
+  position: absolute;
+  /* right: 2rem; */
+  bottom: 2rem;
+}
+
+.step--one {
+  z-index: 4;
+}
+
+.step--two {
+  z-index: 3;
+  margin-top: -16rem;
+}
+
+.step--three {
+  z-index: 2;
+  margin-top: -32rem;
+}
+
+.step--four {
+  margin-top: -48rem;
+}
+
+	
+	</style>
 </head>
 
 <body>
@@ -132,19 +220,19 @@
 					<div class="step__container">
 						<div class="step">
 							<h4 class="step__header">1. Upon login, Click upon "Create new Script" option</h4>
-							<div class="step__body"><img class="step__pic"
+							<div class="step__body"><img class="step__pic" width="100%" height="100%"
 									src="manual-images/ramabot-screen-1.jpg"
 									alt="Create New Script Showcase Picture" /></div>
 						</div>
 						<div class="step">
 							<h4 class="step__header">2. Enter Details of your bot!</h4>
-							<div class="step__body"><img class="step__pic"
+							<div class="step__body"><img class="step__pic"  width="100%" height="100%"
 									src="manual-images/ramabot-screen-2.jpg"
 									alt="Create New Script Showcase Picture" /></div>
 						</div>
 						<div class="step">
 							<h4 class="step__header">3. Build a bot by using our Bot-Builder!</h4>
-							<div class="step__body"><img class="step__pic"
+							<div class="step__body"><img class="step__pic"  width="100%" height="100%"
 									src="manual-images/ramabot-screen-3.jpg"
 									alt="Create New Script Showcase Picture" /></div>
 						</div>
@@ -153,7 +241,7 @@
 								you
 								build !</h4>
 							<div class="step__body"><img class="step__pic"
-									src="manual-images/ramabot-screen-4.jpg"
+									src="manual-images/ramabot-screen-4.jpg"  width="100%" height="100%"
 									alt="Create New Script Showcase Picture" /></div>
 						</div>
 					</div>
@@ -188,11 +276,11 @@
 						conversations upon such selection. For User X, Bot might continue conversation saying “Great
 						Choice,
 						Robert Downey Jr Rocks!” and for User Y, Bot might say “Hey! how good was Chris Evans as Captain
-						America!”</p><img src="manual-images/rq-jump.jpg"
+						America!”</p><img src="manual-images/rq-jump.jpg"  width="100%" height="100%"
 						alt="RQ Conditional Jump Illustration Picture" />
 					<p>To access RQ Jump, open the script builder and add an element. You will find the RQ Jump icon
 						right
-						next to the ‘edit’ icon. </p><img src="manual-images/rq-jump-2.jpg"
+						next to the ‘edit’ icon. </p><img src="manual-images/rq-jump-2.jpg"  width="100%" height="100%"
 						alt="Another RQ Conditional Jump Illustration Picture" />
 					<p>Along with options to jump a particular conversation point, RQ Jump has 2 default positions.
 						<ul class="list">
@@ -205,7 +293,7 @@
 								selected,
 								the Bot ends the conversation. </li>
 						</ul>
-					</p><img src="manual-images/rq-jump-3.jpg"
+					</p><img src="manual-images/rq-jump-3.jpg"  width="100%" height="100%"
 						alt="No Jump and End of Conversation jump type Illustration Picture" />
 				</div>
 				<div class="terms__section" id="helper">
@@ -221,7 +309,7 @@
 									content
 									delivery and also help in creating ample time for the user to read a text before the
 									next text turns up. </p><img class="step__pic"
-									src="manual-images/helper-element-1.jpg"
+									src="manual-images/helper-element-1.jpg"  width="100%" height="100%"
 									alt="Custom Delay in seconds Illustration Picture" />
 							</div>
 						</div>
@@ -232,7 +320,7 @@
 									is a
 									switch. If turned on, this holds the conversation at that very point, till user
 									wishes
-									to continue conversation!</p><img class="step__pic"
+									to continue conversation!</p><img class="step__pic"  width="100%" height="100%"
 									src="manual-images/helper-element-2.jpg"
 									alt="Halt conversation feature Illustration Picture" />
 							</div>
@@ -244,7 +332,7 @@
 									“End
 									Conversation” button in the conversation interface and allows the user to end the
 									conversation with the Bot from the front end.</p><img class="step__pic"
-									src="manual-images/helper-element-3.jpg"
+									src="manual-images/helper-element-3.jpg"  width="100%" height="100%"
 									alt="End conversation feature Illustration Picture" />
 							</div>
 						</div>
@@ -254,7 +342,7 @@
 								<p class="step__text">This switch, when turned on, shows a “Back” button in the
 									conversation
 									interface and allows the user to go back to the previous conversation point.</p><img
-									class="step__pic" src="manual-images/helper-element-4.jpg"
+									class="step__pic" src="manual-images/helper-element-4.jpg"  width="100%" height="100%"
 									alt="Show Back Button Illustration Picture" />
 							</div>
 						</div>
@@ -264,7 +352,7 @@
 								<p class="step__text">This switch, when turned on, shows a “skip” button in the
 									conversation
 									interface and allows the user to skip a conversation point. </p><img
-									class="step__pic" src="manual-images/helper-element-5.jpg"
+									class="step__pic" src="manual-images/helper-element-5.jpg"  width="100%" height="100%"
 									alt="Show Skip Button Illustration Picture" />
 							</div>
 						</div>
@@ -275,23 +363,23 @@
 									created
 									Swear Jar Helper Element. Swear Jar lets you create a library of abuses and allows
 									you
-									to let the set the bot reaction to it. </p><img class="step__pic"
+									to let the set the bot reaction to it. </p><img class="step__pic"  width="100%" height="100%"
 									src="manual-images/helper-element-6.jpg"
 									alt="Show Skip Button Illustration Picture" />
 								<p class="step__text">This is a multi-select text box. Fill this up with abuses, swear
 									words
 									you can think of. This lets Bot build a library of abuses.</p><img class="step__pic"
-									src="manual-images/helper-element-7.jpg"
+									src="manual-images/helper-element-7.jpg"  width="100%" height="100%"
 									alt="Multi-Select text box Illustration Picture" />
 								<p class="step__text">You enter the response you want your bot to give when it
 									encounters an
 									abuse during conversation.</p><img class="step__pic"
-									src="manual-images/helper-element-8.jpg"
+									src="manual-images/helper-element-8.jpg"  width="100%" height="100%"
 									alt="Abuse response Illustration Picture" />
 								<p class="step__text">This lets you guide your Bot to either end the conversation after
 									it
 									gets abused or continue despite of it.</p><img class="step__pic"
-									src="manual-images/helper-element-9.jpg"
+									src="manual-images/helper-element-9.jpg"  width="100%" height="100%"
 									alt="Conversation after Abuse response Illustration Picture" />
 							</div>
 						</div>
@@ -306,7 +394,7 @@
 						<div class="step">
 							<h4 class="step__header">1. Look for an option by name “Copy”</h4>
 							<div class="step__body"><img class="step__pic"
-									src="manual-images/installation-guide-1.jpg"
+									src="manual-images/installation-guide-1.jpg"  width="100%" height="100%"
 									alt="To show where copy button lies Picture" /></div>
 						</div>
 						<div class="step">
@@ -316,7 +404,7 @@
 									Now,
 									the widget code snippet is copied to your clipboard. Paste this snippet in your
 									website
-									code.</p><img class="step__pic" src="manual-images/installation-guide-2.jpg"
+									code.</p><img class="step__pic" src="manual-images/installation-guide-2.jpg"  width="100%" height="100%"
 									alt="How to add a widget illustration Picture" />
 							</div>
 						</div>
@@ -327,7 +415,7 @@
 									snippet is copied to your clipboard. Paste this snippet into the webpage code where
 									you
 									want to run the bot.</p><img class="step__pic"
-									src="manual-images/installation-guide-3.jpg"
+									src="manual-images/installation-guide-3.jpg"  width="100%" height="100%"
 									alt="How to copy IFrame illustration Picture" />
 							</div>
 						</div>
@@ -343,13 +431,13 @@
 							<div class="step__body">
 								<p class="step__text">In the Dashboard, click on “Edit” option of the Bot under
 									consideration. On the left-hand side, navigate to the option by name “Responses” and
-									click on it.</p><img class="step__pic" src="manual-images/access-1.jpg"
+									click on it.</p><img class="step__pic" src="manual-images/access-1.jpg"  width="100%" height="100%"
 									alt="First step to access chat transcript" />
 								<p class="step__text">Now, click on the “Export CSV” button found on the right-hand side
 									of
 									the page. This will automatically start downloading the bot transcript in CSV to
 									your
-									local machine.</p><img class="step__pic" src="manual-images/access-2.jpg"
+									local machine.</p><img class="step__pic" src="manual-images/access-2.jpg"  width="100%" height="100%"
 									alt="How to copy CSV file" />
 							</div>
 						</div>
@@ -359,22 +447,22 @@
 								<p class="step__text">In the Dashboard, Click on “Edit” option of the Bot under
 									consideration. On the left-hand side, navigate to the option by name “Integrations”
 									and
-									click on it.</p><img class="step__pic" src="manual-images/access-3.jpg"
+									click on it.</p><img class="step__pic" src="manual-images/access-3.jpg"  width="100%" height="100%"
 									alt="How to get into integration page illustration Picture" />
 								<p class="step__text">You will now see a Google Sheets thumbnail. Upon clicking the
 									thumbnail, it will interface will prompt you to connect with your google account.
 									Connect with your preferred google account.</p><img class="step__pic"
-									src="manual-images/access-4.jpg"
+									src="manual-images/access-4.jpg"  width="100%" height="100%"
 									alt="Google Sheet Export option illustration Picture" />
 								<p class="step__text">Google will verify your account, and upon verification prompts to
 									grant permission to Ramabot to change and update your google spreadsheets. Please
 									click
 									'allow’. This grants us permission to insert Bot transcript data into your google
-									spreadsheets.</p><img class="step__pic" src="manual-images/access-5.jpg"
+									spreadsheets.</p><img class="step__pic" src="manual-images/access-5.jpg"  width="100%" height="100%"
 									alt="Google verification result for Sheet illustration Picture" />
 								<p class="step__text">Now, Enter a filename and click on create. This sheet will contain
 									Bot
-									chat transcript.</p><img class="step__pic" src="manual-images/access-6.jpg"
+									chat transcript.</p><img class="step__pic" src="manual-images/access-6.jpg"  width="100%" height="100%"
 									alt="File name to download the sheet illustration Picture" />
 							</div>
 						</div>
