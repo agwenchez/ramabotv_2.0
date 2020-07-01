@@ -8638,10 +8638,13 @@ span {
 
 .pricing.pricing--page .pricing__item:hover ul li {
   color: #ffffff;
+ 
 }
 
 .pricing.pricing--page .pricing__item ul li {
   color: #444444;
+  text-align: left;
+  padding-left:10px;
 }
 
 .pricing.pricing--page .pricing__item__title span {
@@ -8688,7 +8691,7 @@ span {
 }
 
 .pricing__item .pricing__item__title span {
-  font-size: 14px;
+  font-size: 17px;
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
@@ -8698,7 +8701,7 @@ span {
 }
 
 .pricing__item .pricing__item__title h2 {
-  font-size: 50px;
+  font-size: 26px;
   color: #ff2143;
   font-weight: 700;
   margin-top: 4px;
@@ -8712,6 +8715,7 @@ span {
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
+  font-size: 28px;
 }
 
 .pricing__item ul {
