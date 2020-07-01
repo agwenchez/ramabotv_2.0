@@ -3426,7 +3426,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
-  position: sticky;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
