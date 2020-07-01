@@ -27,6 +27,7 @@
 */
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:300,400,700,900|Titillium+Web:300,400,600,700&display=swap");
+
 /* line 34, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
@@ -328,7 +329,11 @@ button {
 }
 
 /* line 96, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -450,6 +455,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 189, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 30px;
@@ -457,6 +463,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 189, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 45px;
@@ -516,7 +523,7 @@ hr {
 
 /* line 253, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .btn {
-  background: #FF2143 ;
+  background: #FF2143;
   padding: 27px 44px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -572,7 +579,8 @@ a:hover {
 }
 
 /* line 306, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -594,6 +602,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 316, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .btn3 {
     margin-top: 30px;
@@ -602,6 +611,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 316, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .btn3 {
     padding: 35px 0;
@@ -609,6 +619,7 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+
   /* line 316, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .btn3 {
     padding: 35px 0;
@@ -618,7 +629,7 @@ a:hover {
 /* line 330, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .submit-btn {
   width: 100%;
-  background: #FF2143 ;
+  background: #FF2143;
   padding: 19px 44px;
   color: #fff;
   cursor: pointer;
@@ -640,6 +651,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 348, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .btn.btn-black.f-right {
     float: left;
@@ -648,6 +660,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 348, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .btn.btn-black.f-right {
     float: left;
@@ -692,6 +705,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 373, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .border-btn {
     display: none;
@@ -725,13 +739,14 @@ hero-btn {
 
 /* button style */
 /* line 427, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.breadcrumb > .active {
+.breadcrumb>.active {
   color: #888;
 }
 
 /* scrollUp */
 /* line 431, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
   background: #14435c;
   height: 50px;
   width: 50px;
@@ -749,14 +764,17 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 431, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-  #scrollUp, #back-top {
+  #scrollUp,
+  #back-top {
     right: 16px;
   }
 }
 
 /* line 449, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-#scrollUp a i, #back-top a i {
+#scrollUp a i,
+#back-top a i {
   display: block;
   line-height: 50px;
 }
@@ -2425,10 +2443,12 @@ hero-btn {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
+
   50% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   100% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
@@ -2466,6 +2486,7 @@ hero-btn {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2476,6 +2497,7 @@ hero-btn {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -2566,6 +2588,7 @@ hero-btn {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2583,6 +2606,7 @@ hero-btn {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2600,6 +2624,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2608,6 +2633,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2616,6 +2642,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 100px;
@@ -2624,6 +2651,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2632,6 +2660,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 713, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2645,6 +2674,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 200px;
@@ -2652,6 +2682,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 50px;
@@ -2659,6 +2690,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 10px;
@@ -2666,6 +2698,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 738, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-bottom {
     padding-bottom: 10px;
@@ -2678,6 +2711,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 753, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2685,6 +2719,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 753, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2692,6 +2727,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 753, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .pb-top {
     padding-top: 70px;
@@ -2705,6 +2741,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 765, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 148px;
@@ -2713,6 +2750,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 765, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 148px;
@@ -2721,6 +2759,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 765, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 148px;
@@ -2729,6 +2768,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 765, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 148px;
@@ -2743,6 +2783,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 785, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .w-padding2 {
     padding-top: 70px;
@@ -2751,6 +2792,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 785, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .w-padding2 {
     padding-top: 70px;
@@ -2765,6 +2807,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 195px;
@@ -2773,6 +2816,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 150px;
@@ -2781,6 +2825,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 100px;
@@ -2789,6 +2834,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2797,6 +2843,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2805,6 +2852,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 822, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .brand-area {
     padding-top: 70px;
@@ -2813,6 +2861,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 822, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .brand-area {
     padding-top: 50px;
@@ -2826,6 +2875,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 832, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .padding-bottom {
     padding-bottom: 100px;
@@ -2833,6 +2883,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 832, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .padding-bottom {
     padding-bottom: 70px;
@@ -2840,6 +2891,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 832, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .padding-bottom {
     padding-bottom: 70px;
@@ -2847,6 +2899,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 832, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .padding-bottom {
     padding-bottom: 70px;
@@ -2860,6 +2913,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 847, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .services-padding {
     padding-top: 145px;
@@ -2868,6 +2922,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 847, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .services-padding {
     padding-top: 100px;
@@ -2876,6 +2931,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 847, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .services-padding {
     padding-top: 65px;
@@ -2884,6 +2940,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 847, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .services-padding {
     padding-top: 65px;
@@ -2898,6 +2955,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 867, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 150px;
@@ -2906,6 +2964,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 867, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 100px;
@@ -2914,6 +2973,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 867, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 65px;
@@ -2922,6 +2982,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 867, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-paddingt30 {
     padding-top: 65px;
@@ -2936,6 +2997,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 889, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 195px;
@@ -2944,6 +3006,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 889, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 95px;
@@ -2952,6 +3015,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 889, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 60px;
@@ -2960,6 +3024,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 889, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 60px;
@@ -2974,6 +3039,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 143px;
@@ -2982,6 +3048,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 100px;
@@ -2990,6 +3057,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -2998,6 +3066,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -3006,6 +3075,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 933, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -3013,6 +3083,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 933, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -3033,6 +3104,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 940, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle span {
     font-size: 14px;
@@ -3061,6 +3133,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 965, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 31px;
@@ -3068,6 +3141,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 965, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 31px;
@@ -3090,6 +3164,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 985, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 27px;
@@ -3102,6 +3177,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 999, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle3 h2 {
     font-size: 44px;
@@ -3109,6 +3185,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 999, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle3 h2 {
     margin-bottom: 50px;
@@ -3117,6 +3194,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 999, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle3 h2 {
     text-align: left;
@@ -3126,6 +3204,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 999, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-tittle3 h2 {
     text-align: left;
@@ -3206,6 +3285,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
     padding: 17px 0px;
@@ -3213,6 +3293,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
     padding: 17px 0px;
@@ -3220,6 +3301,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
     padding: 17px 0px;
@@ -3227,6 +3309,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 19, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -3234,6 +3317,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 19, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -3241,6 +3325,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 19, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -3299,6 +3384,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 76, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu {
     margin-right: 30px;
@@ -3328,6 +3414,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 85, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu ul li a {
     padding: 39px 14px;
@@ -3335,7 +3422,7 @@ hero-btn {
 }
 
 /* line 99, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul li:hover > a {
+.main-header .main-menu ul li:hover>a {
   color: #14435c;
 }
 
@@ -3363,26 +3450,26 @@ hero-btn {
 }
 
 /* line 121, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li {
+.main-header .main-menu ul ul.submenu>li {
   margin-left: 7px;
   display: block;
 }
 
 /* line 124, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a {
+.main-header .main-menu ul ul.submenu>li>a {
   padding: 6px 10px !important;
   font-size: 15px;
   color: #fdfdfd;
 }
 
 /* line 128, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a:hover {
+.main-header .main-menu ul ul.submenu>li>a:hover {
   background: none;
   padding-left: 13px !important;
 }
 
 /* line 143, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.main-header ul > li:hover > ul.submenu {
+.main-header ul>li:hover>ul.submenu {
   visibility: visible;
   opacity: 1;
   top: 100%;
@@ -3413,7 +3500,7 @@ hero-btn {
 
 /* line 172, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .header-top .header-info-right .header-social a:hover i {
-  color: #FF2143 ;
+  color: #FF2143;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -3427,11 +3514,12 @@ hero-btn {
 }
 
 /* line 195, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
-.header-area .header-sticky.sticky-bar .main-menu nav > ul > li > a {
+.header-area .header-sticky.sticky-bar .main-menu nav>ul>li>a {
   padding: 25px 20px !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 190, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
@@ -3439,6 +3527,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 190, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
@@ -3446,6 +3535,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 190, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-sticky.sticky-bar {
     padding: 15px 0px;
@@ -3504,6 +3594,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 700px;
@@ -3511,6 +3602,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 650px;
@@ -3518,6 +3610,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 650px;
@@ -3525,6 +3618,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
     height: 650px;
@@ -3538,6 +3632,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 18, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 350px;
@@ -3545,6 +3640,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 18, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 260px;
@@ -3552,6 +3648,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 18, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
     height: 260px;
@@ -3592,6 +3689,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
     padding-left: 100px;
@@ -3612,6 +3710,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 48, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption span {
     font-size: 13px;
@@ -3643,6 +3742,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
   /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 36px;
@@ -3650,6 +3750,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 32px;
@@ -3658,6 +3759,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 30px;
@@ -3666,6 +3768,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 26px;
@@ -3674,6 +3777,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
     font-size: 26px;
@@ -3692,19 +3796,22 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 101, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p {
     margin-bottom: 40px;
     font-size: 16px;
-    margin-top:-20px;
+    margin-top: -20px;
   }
+
   .slider-area .hero__caption span {
     margin-top: 140px;
     font-size: 14px;
     margin-bottom: -100px;
   }
+
   .hero__img {
-  margin-top:-50px;
+    margin-top: -50px;
   }
 
   /* line 111, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -3714,6 +3821,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 116, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p br {
     display: none;
@@ -3721,6 +3829,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 121, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p br {
     display: none;
@@ -3804,13 +3913,16 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 177, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area2 .hero-cap h2 {
     font-size: 50px;
   }
+
   .slider-area3 .hero-cap h2 {
     font-size: 50px;
   }
+
   .slider-area4 .hero-cap h2 {
     font-size: 50px;
   }
@@ -3818,6 +3930,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 177, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area2 .hero-cap h2 {
     font-size: 35px;
@@ -3826,6 +3939,7 @@ hero-btn {
   .slider-area3 .hero-cap h2 {
     font-size: 35px;
   }
+
   .slider-area4 .hero-cap h2 {
     font-size: 35px;
   }
@@ -3838,11 +3952,13 @@ hero-btn {
   padding: 0;
   margin: 0;
 }
+
 .slider-area3 .hero-cap .breadcrumb {
   background: none;
   padding: 0;
   margin: 0;
 }
+
 .slider-area4 .hero-cap .breadcrumb {
   background: none;
   padding: 0;
@@ -3862,6 +3978,7 @@ hero-btn {
   font-size: 18px;
   text-transform: capitalize;
 }
+
 .slider-area4 .hero-cap .breadcrumb a {
   color: #dcdcdc;
   font-size: 18px;
@@ -3869,14 +3986,15 @@ hero-btn {
 }
 
 /* line 201, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
-.slider-area2 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
+.slider-area2 .hero-cap .breadcrumb-item+.breadcrumb-item::before {
   color: #dcdcdc;
 }
 
-.slider-area3 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
+.slider-area3 .hero-cap .breadcrumb-item+.breadcrumb-item::before {
   color: #dcdcdc;
 }
-.slider-area4 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
+
+.slider-area4 .hero-cap .breadcrumb-item+.breadcrumb-item::before {
   color: #dcdcdc;
 }
 
@@ -3906,6 +4024,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
   /* line 212, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     left: 15px;
@@ -3913,6 +4032,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
+
   /* line 212, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     left: 20px;
@@ -3920,6 +4040,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 212, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     right: 130px;
@@ -3946,6 +4067,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 250, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-next {
     right: 50px;
@@ -3963,6 +4085,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 258, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-next {
     right: 20px;
@@ -3999,6 +4122,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
   .categories-area .single-cat {
     padding: 30px 22px;
@@ -4006,6 +4130,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
   .categories-area .single-cat {
     padding: 30px 18px;
@@ -4018,7 +4143,7 @@ hero-btn {
   content: "";
   width: 100%;
   height: 0;
-  background: #FF2143 ;
+  background: #FF2143;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -4034,15 +4159,15 @@ hero-btn {
 .categories-area .single-cat .cat-icon img {
   color: #eb566c;
   height: 25%;
-  width:25%;
+  width: 25%;
   margin-bottom: 45px;
   margin-left: 100px;
   display: block;
- text-align: center;
+  text-align: center;
 }
 
 /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
-.categories-area .single-cat .cat-cap h5 > a {
+.categories-area .single-cat .cat-cap h5>a {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 21px;
@@ -4056,15 +4181,17 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
-  .categories-area .single-cat .cat-cap h5 > a {
+  .categories-area .single-cat .cat-cap h5>a {
     font-size: 21px;
   }
 }
 
 @media (max-width: 575px) {
+
   /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
-  .categories-area .single-cat .cat-cap h5 > a {
+  .categories-area .single-cat .cat-cap h5>a {
     font-size: 23px;
   }
 }
@@ -4082,6 +4209,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 53, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
   .categories-area .single-cat .cat-cap p {
     font-size: 15px;
@@ -4142,6 +4270,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
   .support-company-area .right-caption {
     right: -25px;
@@ -4149,6 +4278,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4158,6 +4288,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4167,6 +4298,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_about.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4204,7 +4336,7 @@ hero-btn {
 
 /* line 8, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_count_down.scss */
 .count-down-area .single-counter.active {
-  background: #FF2143 ;
+  background: #FF2143;
   border: 10px solid #fff;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
   position: relative;
@@ -4258,6 +4390,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services {
     margin-bottom: 30px;
@@ -4265,6 +4398,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services {
     margin-bottom: 30px;
@@ -4286,6 +4420,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 15, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services .services-caption {
     width: 95%;
@@ -4293,6 +4428,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 15, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services .services-caption {
     width: 100%;
@@ -4302,6 +4438,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 15, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services .services-caption {
     width: 100%;
@@ -4357,6 +4494,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 60, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services .services-caption p a {
     font-size: 18px;
@@ -4364,6 +4502,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 60, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_services_section.scss */
   .services-area .single-services .services-caption p a {
     font-size: 18px;
@@ -4380,6 +4519,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 30px;
@@ -4387,6 +4527,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 36px;
@@ -4395,6 +4536,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 25px;
@@ -4408,6 +4550,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 26, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-btn {
     float: left;
@@ -4416,6 +4559,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 26, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-btn {
     float: left;
@@ -4424,6 +4568,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 26, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-btn {
     float: left;
@@ -4456,7 +4601,7 @@ hero-btn {
 
 /* line 15, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
 .team-area .single-team .team-caption span {
-  color: #FF2143 ;
+  color: #FF2143;
   font-size: 14px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
@@ -4475,7 +4620,7 @@ hero-btn {
   left: -47px;
   top: 50%;
   transform: translateY(-50%);
-  background: #FF2143 ;
+  background: #FF2143;
 }
 
 /* line 36, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
@@ -4543,6 +4688,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption {
     padding-left: 0px;
@@ -4550,6 +4696,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption {
     padding-left: 0px;
@@ -4557,6 +4704,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption {
     padding-left: 0px;
@@ -4571,6 +4719,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 16, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap svg {
     margin-bottom: 30px;
@@ -4578,6 +4727,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 16, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap svg {
     margin-bottom: 30px;
@@ -4595,6 +4745,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 20px;
@@ -4602,6 +4753,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 20px;
@@ -4610,6 +4762,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 18px;
@@ -4619,6 +4772,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 18px;
@@ -4628,6 +4782,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 27, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 15px;
@@ -4649,6 +4804,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 64, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
     font-size: 26px;
@@ -4736,6 +4892,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
     padding-right: 0px;
@@ -4743,6 +4900,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
     padding-right: 0px;
@@ -4750,6 +4908,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
     padding-right: 0px;
@@ -4757,6 +4916,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
     padding-right: 0px;
@@ -4923,6 +5083,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 149, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -4931,6 +5092,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 149, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -4939,6 +5101,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 149, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -5031,6 +5194,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 16, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img ul {
     width: 85%;
@@ -5048,6 +5212,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img ul li {
     padding: 20px 10px 20px 20px;
@@ -5055,6 +5220,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img ul li {
     padding: 20px 10px 20px 20px;
@@ -5062,6 +5228,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-img ul li {
     padding: 20px 10px 20px 20px;
@@ -5075,6 +5242,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 37px 23px 37px 45px;
@@ -5082,6 +5250,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 30px 8px 31px 26px;
@@ -5089,6 +5258,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 30px 8px 31px 26px;
@@ -5096,6 +5266,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap {
     padding: 30px 8px 31px 26px;
@@ -5118,6 +5289,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 59, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 23px;
@@ -5125,6 +5297,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 59, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 19px;
@@ -5132,6 +5305,7 @@ hero-btn {
 }
 
 @media (max-width: 575px) {
+
   /* line 59, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
     font-size: 19px;
@@ -5146,6 +5320,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .home-blog-area .home-blog-single .blog-img-cap .blog-cap p {
     font-size: 14px;
@@ -5154,7 +5329,7 @@ hero-btn {
 
 /* line 89, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap .more-btn {
-  color: #FF2143 ;
+  color: #FF2143;
   text-transform: capitalize;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -5171,7 +5346,7 @@ hero-btn {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
-  background: #FF2143 ;
+  background: #FF2143;
 }
 
 /* line 112, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5201,7 +5376,8 @@ hero-btn {
 }
 
 /* line 136, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #14435c 0%, #14435c 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5288,10 +5464,12 @@ hero-btn {
 }
 
 @media (max-width: 1199px) {
+
   /* line 196, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog .tag {
     margin-right: 8px;
   }
+
   /* line 220, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog .tag:after {
     display: none;
@@ -5304,6 +5482,7 @@ hero-btn {
 }
 
 @media (max-width: 800px) {
+
   /* line 146, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog {
     margin-bottom: 30px;
@@ -5329,6 +5508,7 @@ hero-btn {
 }
 
 @media (max-width: 1199px) {
+
   /* line 234, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog .single-blog-content {
     padding: 15px;
@@ -5346,6 +5526,7 @@ hero-btn {
 }
 
 @media (max-width: 1199px) {
+
   /* line 265, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog h4 {
     transition: all 300ms linear 0s;
@@ -5353,6 +5534,7 @@ hero-btn {
     padding-bottom: 14px;
     margin-bottom: 12px;
   }
+
   /* line 271, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-blog h4 a {
     font-size: 18px;
@@ -5379,6 +5561,7 @@ hero-btn {
 }
 
 @media (min-width: 992px) {
+
   /* line 282, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
@@ -5549,7 +5732,7 @@ hero-btn {
 }
 
 /* line 480, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
-.causes_item .causes_bottom a + a {
+.causes_item .causes_bottom a+a {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
@@ -5614,7 +5797,7 @@ hero-btn {
 }
 
 /* line 553, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
-.tags .tag_btn + .tag_btn {
+.tags .tag_btn+.tag_btn {
   margin-left: 2px;
 }
 
@@ -5626,6 +5809,7 @@ hero-btn {
 }
 
 @media (min-width: 900px) {
+
   /* line 560, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 80px;
@@ -5634,6 +5818,7 @@ hero-btn {
 }
 
 @media (min-width: 1100px) {
+
   /* line 560, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 120px;
@@ -5712,6 +5897,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 651, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_details {
     padding: 60px 30px 35px 35px;
@@ -5730,7 +5916,7 @@ hero-btn {
 
 /* line 666, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_details a:hover {
-  color: #FF2143 ;
+  color: #FF2143;
 }
 
 /* line 671, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5741,6 +5927,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 671, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_details h2 {
     font-size: 24px;
@@ -5804,6 +5991,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 721, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date {
     bottom: -20px;
@@ -5822,6 +6010,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 737, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
@@ -5836,6 +6025,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 749, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
@@ -5975,7 +6165,7 @@ hero-btn {
 }
 
 /* line 899, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li + li {
+.blog_right_sidebar .post_category_widget .cat-list li+li {
   padding-top: 15px;
 }
 
@@ -6007,7 +6197,7 @@ hero-btn {
 }
 
 /* line 945, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+.blog_right_sidebar .popular_post_widget .post_item+.post_item {
   margin-top: 20px;
 }
 
@@ -6152,6 +6342,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 1212, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .quote-wrapper {
     padding: 30px;
@@ -6166,6 +6357,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) {
+
   /* line 1226, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
@@ -6249,6 +6441,7 @@ hero-btn {
 }
 
 @media (max-width: 600px) {
+
   /* line 1307, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .blog-author {
     padding: 20px 8px;
@@ -6264,6 +6457,7 @@ hero-btn {
 }
 
 @media (max-width: 600px) {
+
   /* line 1316, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
@@ -6279,7 +6473,7 @@ hero-btn {
 
 /* line 1333, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
 .single-post-area .blog-author a:hover {
-  color: #FF2143 ;
+  color: #FF2143;
 }
 
 /* line 1338, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
@@ -6353,6 +6547,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 1365, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
@@ -6401,6 +6596,7 @@ hero-btn {
 }
 
 @media (max-width: 991px) {
+
   /* line 1432, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
@@ -6416,6 +6612,7 @@ hero-btn {
 }
 
 @media (max-width: 414px) {
+
   /* line 1439, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comments-area {
     padding: 50px 8px;
@@ -6450,14 +6647,17 @@ hero-btn {
 }
 
 @media (max-width: 413px) {
+
   /* line 1479, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
+
   /* line 1483, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
+
   /* line 1487, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
@@ -6526,6 +6726,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 1553, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comment-form .name {
     padding-right: 0px;
@@ -6539,6 +6740,7 @@ hero-btn {
 }
 
 @media (max-width: 991px) {
+
   /* line 1562, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_blog_page.scss */
   .comment-form .email {
     padding-left: 0px;
@@ -6629,7 +6831,8 @@ hero-btn {
 }
 
 /* line 16, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -6639,7 +6842,7 @@ hero-btn {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color:white;
+  color: white;
 }
 
 /* line 30, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
@@ -6751,6 +6954,7 @@ hero-btn {
 }
 
 @media (max-width: 991px) {
+
   /* line 133, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
   .contact-section {
     padding: 70px 0 40px;
@@ -6758,6 +6962,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
   /* line 133, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_contact.scss */
   .contact-section {
     padding: 80px 0 50px;
@@ -6802,6 +7007,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6809,6 +7015,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6826,6 +7033,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 22, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 30px;
@@ -6833,6 +7041,7 @@ hero-btn {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 22, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 40px;
@@ -6849,6 +7058,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .popup_box {
     width: 320px;
@@ -6857,6 +7067,7 @@ hero-btn {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .popup_box {
     width: 420px !important;
@@ -6963,6 +7174,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 131, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   #test-form {
     top: 0;
@@ -6987,6 +7199,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 151, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   #test-form button.mfp-close {
     display: block !important;
@@ -7038,6 +7251,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 208, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.timepicker {
     width: 310px;
@@ -7046,6 +7260,7 @@ hero-btn {
 }
 
 @media (max-width: 767px) {
+
   /* line 215, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.datepicker.gj-unselectable {
     width: 320px;
@@ -7746,7 +7961,7 @@ del {
 }
 
 /* line 587, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.default-switch input + label {
+.default-switch input+label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -7763,7 +7978,7 @@ del {
 }
 
 /* line 600, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.default-switch input:checked + label {
+.default-switch input:checked+label {
   left: 19px;
 }
 
@@ -7790,7 +8005,7 @@ del {
 }
 
 /* line 623, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-switch input + label {
+.primary-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7801,7 +8016,7 @@ del {
 }
 
 /* line 631, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-switch input + label:before {
+.primary-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7820,7 +8035,7 @@ del {
 }
 
 /* line 645, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-switch input + label:after {
+.primary-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7838,12 +8053,12 @@ del {
 }
 
 /* line 661, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-switch input:checked + label:after {
+.primary-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 664, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-switch input:checked + label:before {
+.primary-switch input:checked+label:before {
   background: #1f2b7b;
 }
 
@@ -7870,7 +8085,7 @@ del {
 }
 
 /* line 688, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-switch input + label {
+.confirm-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7881,7 +8096,7 @@ del {
 }
 
 /* line 696, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-switch input + label:before {
+.confirm-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7900,7 +8115,7 @@ del {
 }
 
 /* line 710, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-switch input + label:after {
+.confirm-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7918,12 +8133,12 @@ del {
 }
 
 /* line 726, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:after {
+.confirm-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 729, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:before {
+.confirm-switch input:checked+label:before {
   background: #4cd3e3;
 }
 
@@ -7950,7 +8165,7 @@ del {
 }
 
 /* line 753, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-checkbox input + label {
+.primary-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7964,7 +8179,7 @@ del {
 }
 
 /* line 766, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-checkbox input:checked + label {
+.primary-checkbox input:checked+label {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -7992,7 +8207,7 @@ del {
 }
 
 /* line 790, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-checkbox input + label {
+.confirm-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8006,7 +8221,7 @@ del {
 }
 
 /* line 803, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
+.confirm-checkbox input:checked+label {
   background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8034,7 +8249,7 @@ del {
 }
 
 /* line 827, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.disabled-checkbox input + label {
+.disabled-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8054,7 +8269,7 @@ del {
 }
 
 /* line 844, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
+.disabled-checkbox input:checked+label {
   background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8082,7 +8297,7 @@ del {
 }
 
 /* line 868, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-radio input + label {
+.primary-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8096,7 +8311,7 @@ del {
 }
 
 /* line 881, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.primary-radio input:checked + label {
+.primary-radio input:checked+label {
   background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8124,7 +8339,7 @@ del {
 }
 
 /* line 905, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-radio input + label {
+.confirm-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8138,7 +8353,7 @@ del {
 }
 
 /* line 918, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.confirm-radio input:checked + label {
+.confirm-radio input:checked+label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8166,7 +8381,7 @@ del {
 }
 
 /* line 942, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.disabled-radio input + label {
+.disabled-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8186,7 +8401,7 @@ del {
 }
 
 /* line 959, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
-.disabled-radio input:checked + label {
+.disabled-radio input:checked+label {
   background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8374,7 +8589,8 @@ del {
   text-align: left;
 }
 
-a, span {
+a,
+span {
   display: inline-block;
   text-decoration: none;
 }
@@ -8397,174 +8613,325 @@ a, span {
 }
 
 .pricing.pricing--page .section-title h2 {
-	color: #111111;
+  color: #111111;
 }
 
 .pricing.pricing--page .pricing__item {
-	background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .pricing.pricing--page .pricing__item:hover {
-	background: #0c2b4b;
+  background: #0c2b4b;
 }
 
 .pricing.pricing--page .pricing__item:hover .pricing__item__title span {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .pricing.pricing--page .pricing__item:hover .pricing__item__title h5 {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .pricing.pricing--page .pricing__item:hover ul li {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .pricing.pricing--page .pricing__item ul li {
-	color: #444444;
+  color: #444444;
 }
 
 .pricing.pricing--page .pricing__item__title span {
-	color: #444444;
+  color: #444444;
 }
 
 .pricing.pricing--page .pricing__item__title h5 {
-	color: #111111;
+  color: #111111;
 }
 
 .pricing .section-title h2 {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .pricing__item {
-	background: rgba(12, 43, 75, 0.3);
-	text-align: center;
-	padding: 40px 35px 35px;
-	margin-bottom: 40px;
-	-webkit-transition: all, 0.5s;
-	-o-transition: all, 0.5s;
-	transition: all, 0.5s;
+  background: rgba(12, 43, 75, 0.3);
+  text-align: center;
+  padding: 40px 35px 35px;
+  margin-bottom: 40px;
+  -webkit-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
 }
 
 .pricing__item:hover {
-	background: #0c2b4b;
+  background: #0c2b4b;
 }
 
 .pricing__item:hover .pricing__item__title {
-	border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.1);
 }
 
 .pricing__item:hover .primary-btn {
-	background: #ff2143;
+  background: #ff2143;
 }
 
 .pricing__item .pricing__item__title {
-	border-bottom: 1px solid rgba(225, 225, 225, 0.2);
-	padding-bottom: 45px;
-	margin-bottom: 25px;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  padding-bottom: 45px;
+  margin-bottom: 25px;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 
 .pricing__item .pricing__item__title span {
-	font-size: 14px;
-	color: #ffffff;
-	font-weight: 700;
-	text-transform: uppercase;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 
 .pricing__item .pricing__item__title h2 {
-	font-size: 50px;
-	color: #ff2143;
-	font-weight: 700;
-	margin-top: 4px;
-	margin-bottom: 18px;
+  font-size: 50px;
+  color: #ff2143;
+  font-weight: 700;
+  margin-top: 4px;
+  margin-bottom: 18px;
 }
 
 .pricing__item .pricing__item__title h5 {
-	color: #ffffff;
-	font-weight: 700;
-	text-transform: uppercase;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 
 .pricing__item ul {
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .pricing__item ul li {
-	list-style: none;
-	font-size: 14px;
-	color: #ffffff;
-	line-height: 36px;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
+  list-style: none;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 36px;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 
 .pricing__item .primary-btn {
-	display: block;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
+  display: block;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 
-        /* The sidebar menu */
-        .sidenav {
-          height: 100%;
-          /* Full-height: remove this if you want "auto" height */
-          width: 200px;
-          /* Set the width of the sidebar */
-          position: fixed;
-          /* Fixed Sidebar (stay in place on scroll) */
-          z-index: 1;
-          /* Stay on top */
-          top: 0;
-          /* Stay at the top */
-          left: 0;
-          background-color: #111;
-          /* Black */
-          overflow-x: hidden;
-          /* Disable horizontal scroll */
-          padding-top: 20px;
-      }
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 200px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
 
-      /* The navigation menu links */
-      .sidenav a {
-          padding: 6px 8px 6px 16px;
-          text-decoration: none;
-          font-size: 18px;
-          color: #818181;
-          display: block;
-      }
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
 
-      /* When you mouse over the navigation links, change their color */
-      .sidenav a:hover {
-          color: #f1f1f1;
-      }
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-      /* Style page content */
-      .main {
-          margin-left: 200px;
-          /* Same as the width of the sidebar */
-          padding: 0px 10px;
-      }
+/* Style page content */
+.main {
+  margin-left: 200px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
 
-      /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-      @media screen and (max-height: 450px) {
-          .sidenav {
-              padding-top: 150px;
-          }
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 150px;
+  }
 
-          .sidenav a {
-              font-size: 18px;
-          }
-      }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
 
+
+.steps {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+  align-items: center;
+}
+
+.container2 {
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.container2 .card {
+  position: relative;
+  display: flex;
+  height: 300px;
+  background: #fff;
+  margin: 30px 0px;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.container2 .card .imgBx {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+
+
+}
+
+.container2 .card:hover .imgBx {
+  width: 150px;
+  height: 150px;
+  left: -75px;
+  top: calc(50% - 75px);
+  transition: 0.5s ease-in-out;
+  background: #a50009;
+  border-radius: 10px;
+}
+
+.container2 .card .imgBx:before {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  top: 45%;
+  text-align: center;
+  font-size: 3.0em;
+  content: attr(data-text);
+  position: absolute;
+  color: rgba(255, 255, 255, .25);
+  font-weight: 800;
+}
+
+.container2 .card .imgBx img {
+  max-width: 100px;
+  transition: 0.5s ease-in-out;
+  text-align: center;
+}
+
+.container2 .card:hover .imgBx img {
+  max-width: 75%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+.container2 .card .content {
+
+  position: absolute;
+  right: 0;
+  width: calc(100% - 75px);
+  height: 120%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container2 .card .content h3 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.container2 .card .content a {
+  display: inline;
+  color: black;
+
+
+}
+
+
+@media (max-width:992px){
+
+  .container2{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container2 .card {
+    width: 500px;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .container2 .card{
+    width: 300px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .container2 .card .imgBx{
+    position: relative;
+  }
+  .container2 .card .imgBx,
+  .container2 .card:hover .imgBx{
+    width: 100%;
+    height: 200px;
+    left: 0;
+   
+    
+  }
+  .container2 .card .imgBx img,
+  .container2 .card:hover .imgBx img {
+    max-width: 100px;
+  }
+  .container2 .card .content {
+    position: relative;
+    width: 100%;
+  }
+
+}
+/* end card styling */
 /*# sourceMappingURL=style.css.map */
