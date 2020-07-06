@@ -3669,7 +3669,7 @@ hero-btn {
 }
 
 .slider-area4 {
-  background-image: url(../images/about-back.jpg);
+  background-image: url(../images/pricing-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4802,7 +4802,7 @@ hero-btn {
 
 /* line 64, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-  color: #f04e3c;
+  color: #a50009;
   font-size: 30px;
   font-weight: 600;
 }
@@ -4851,8 +4851,8 @@ hero-btn {
 
 /* line 101, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area button.slick-arrow:hover {
-  border: 1px solid #f04e3c;
-  color: #f04e3c;
+  border: 1px solid #a50009;
+  color: #a50009;
 }
 
 /* line 106, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */

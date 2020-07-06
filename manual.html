@@ -1,378 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        /* The sidebar menu */
-        .sidenav {
-            height: 100%;
-            /* Full-height: remove this if you want "auto" height */
-            width: 200px;
-            /* Set the width of the sidebar */
-            position: fixed;
-            /* Fixed Sidebar (stay in place on scroll) */
-            z-index: 1;
-            /* Stay on top */
-            top: 0;
-            /* Stay at the top */
-            left: 0;
-            background-color: #111;
-            /* Black */
-            overflow-x: hidden;
-            /* Disable horizontal scroll */
-            padding-top: 20px;
-        }
+    
 
-        /* The navigation menu links */
-        .sidenav a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 18px;
-            color: #818181;
-            display: block;
-        }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+  
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+header {
+  grid-column: 1 / 3;
+  background: #455A64;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+nav {
+  white-space: nowrap;
+  background: #37474F;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.current {
+  background: black;
+}
+main {
+  padding-bottom: 40rem;
+}
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+footer {
+  grid-column: 1 / 3;
+  background: #607D8B;
+  padding: 5rem 1rem;
+}
 
-        /* When you mouse over the navigation links, change their color */
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
 
-        /* Style page content */
-        .main {
-            margin-left: 200px;
-            /* Same as the width of the sidebar */
-            padding: 0px 10px;
-        }
-
-        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-        @media screen and (max-height: 450px) {
-            .sidenav {
-                padding-top: 150px;
-            }
-
-            .sidenav a {
-                font-size: 18px;
-            }
-        }
-
-        .terms__section:not(:last-child) {
-            margin-bottom: 8rem;
-        }
-
-        .terms__section p {
-            line-height: 1.5;
-        }
-
-        .terms__section p:not(:last-child) {
-            margin-bottom: 3rem;
-        }
-
-        .terms__section img:not(:last-child) {
-            margin-bottom: 3rem;
-        }
-
-        .terms__title {
-            font-size: 2.4rem;
-        }
+    
+    
     </style>
 </head>
-
 <body>
-    <div class="sidenav">
-        <ul class="">
-            <li class=""><a class="" href="#start">Getting Started</a></li>
-            <li class=""><a class="" href="#first-bot">Building your first Bot</a></li>
-            <li class=""><a class="" href="#elements">Bot Building Elements</a></li>
-            <li class=""><a class="" href="#jump">conditional jumps</a></li>
-            <li class=""><a class="" href="#helper">helper elements</a></li>
-            <li class=""><a class="" href="#installation">installation guide</a></li>
-            <li class=""><a class="" href="#chat-transcript">chat transcript and integration</a></li>
-            <li class=""><a class="" href="#billing">billing</a></li>
-        </ul>
-    </div>
+    
 
-    <!-- Page content -->
-    <div class="main">
-        <div>
-            <div class="terms__section">
-                <p>Ramabot is a simple to use, dynamic conversation Bot-Building-Platform which allows you create bots
-                    to turn your website more engaging. Building a bot with Ramabot interface is a matter of few
-                    minutes. Use Drag and Drop tool to build your script and replies. Deploy the JS code on your website
-                    to convert your visitors into subscribers.</p>
-                <p>Building Bots using Ramabot requires no technology understanding. We have designed the Interface to
-                    empower scores of small and medium-scale businesses with limited tech skills to harness the power of
-                    chatbots at a modest cost.</p>
-            </div>
-            <div class="terms__section" id="start">
-                <h2 class="terms__title">Getting Started</h2>
-                <div class="step__container">
-                    <div class="step">
-                        <h4 class="step__header">1. Sign-up with us</h4>
-                        <div class="step__body">
-                            <p class="step__text">Click on the pricing menu in the header. Choose a package which suits
-                                your requirement. Sign-up by providing information such as your name, email ID, phone
-                                number and so on. Our executives will get in touch with you to get you started</p>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">2. Login</h4>
-                        <div class="step__body">
-                            <p class="step__text">You can login by entering your registered email ID and password which
-                                you have set.</p>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">3. Trial Period</h4>
-                        <div class="step__body">
-                            <p class="step__text">YTo give you a taste of our service and quality of the tool, we have
-                                allotted a trial period for every package. You can use this period to evaluate the bot
-                                and its utility for your business.</p>
-                        </div>
+<header>
+    <h1>Website</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#section-1">Section 1</a></li>
+      <li><a href="#section-2">Section 2</a></li>
+      <li><a href="#section-3">Section 3</a></li>
+      <li><a href="#section-4">Section 4</a></li>
+      <li><a href="#section-5">Section 5</a></li>
+      <li><a href="#section-6">Section 6</a></li>
+      <li><a href="#section-7">Section 7</a></li>
+      <li><a href="#section-8">Section 8</a></li>
+      <li><a href="#section-9">Section 9</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="section-1">
+        <div class="terms__section" id="start">
+            <h2 class="terms__title">Getting Started</h2>
+            <div class="step__container">
+                <div class="step">
+                    <h4 class="step__header">1. Sign-up with us</h4>
+                    <div class="step__body">
+                        <p class="step__text">Click on the pricing menu in the header. Choose a package which
+                            suits
+                            your requirement. Sign-up by providing information such as your name, email ID,
+                            phone
+                            number and so on. Our executives will get in touch with you to get you started</p>
                     </div>
                 </div>
-            </div>
-            <div class="terms__section" id="first-bot">
-                <h2 class="terms__title">Building your first Bot</h2>
-                <div class="step__container">
-                    <div class="step">
-                        <h4 class="step__header">1. Upon login, Click upon "Create new Script" option</h4>
-                        <div class="step__body"><img class="step__pic" src="./img/manual-images/ramabot-screen-1.jpg"
-                                alt="Create New Script Showcase Picture" /></div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">2. Enter Details of your bot!</h4>
-                        <div class="step__body"><img class="step__pic" src="./img/manual-images/ramabot-screen-2.jpg"
-                                alt="Create New Script Showcase Picture" /></div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">3. Build a bot by using our Bot-Builder!</h4>
-                        <div class="step__body"><img class="step__pic" src="./img/manual-images/ramabot-screen-3.jpg"
-                                alt="Create New Script Showcase Picture" /></div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">4. Here, you can find some of our ready-to-use templates to help you
-                            build !</h4>
-                        <div class="step__body"><img class="step__pic" src="./img/manual-images/ramabot-screen-4.jpg"
-                                alt="Create New Script Showcase Picture" /></div>
+                <div class="step">
+                    <h4 class="step__header">2. Login</h4>
+                    <div class="step__body">
+                        <p class="step__text">You can login by entering your registered email ID and password
+                            which
+                            you have set.</p>
                     </div>
                 </div>
-            </div>
-            <div class="terms__section" id="elements">
-                <h2 class="terms__title">Bot Building Elements</h2>
-                <p>Ramabot has 18 in-built script building elements to facilitate Bot conversations. Number of these
-                    script building elements may vary for each package. This includes a Text message, Multi-choice,
-                    Multi-select, Date-Picker, Appointment Manager, Range Selector, Auto-Suggest Text box, Emoji-based
-                    Rating Collector, Scaled Opinion Collector, Link Builder, Card Block, Slider Card Block, A
-                    File-Uploader, Video Card, Audio Card, Google Powered Location Text Box, Email Collector and Phone
-                    Number Collector. </p>
-                <p>Ramabot has a JSON API Card which allows you to create dynamic conversations involving data from your
-                    applications such as an ERP, CRM, CMS or other cloud-based tools. You can integrate the Bot with a
-                    REST API endpoint that supports GET, POST, PUT and DELETE methods. </p>
-                <p>By nature, Bot building features are multi-lingual in nature. It supports Unicode texts of any
-                    language. </p>
-            </div>
-            <div class="terms__section" id="jump">
-                <h2 class="terms__title">Conditional Jumps</h2>
-                <p>Ramabot allows the conditional conversation through the use of ‘RQ Jump. The ‘RQ’ in the RQ Jump
-                    stands for ‘Rational Quotient’. RQ Jump allows you to create conditional jumps in the conversation
-                    based on a user input. For example, during a conversation, your bot may ask a user which one does
-                    she/he like more, Iron Man or Captain America? User X might say she likes Iron man while User Y
-                    might say he likes Captain America. RQ Jump allows the bot to have a different set of follow-up
-                    conversations upon such selection. For User X, Bot might continue conversation saying “Great Choice,
-                    Robert Downey Jr Rocks!” and for User Y, Bot might say “Hey! how good was Chris Evans as Captain
-                    America!”</p><img src="./img/manual-images/rq-jump.jpg"
-                    alt="RQ Conditional Jump Illustration Picture" />
-                <p>To access RQ Jump, open the script builder and add an element. You will find the RQ Jump icon right
-                    next to the ‘edit’ icon. </p><img src="./img/manual-images/rq-jump-2.jpg"
-                    alt="Another RQ Conditional Jump Illustration Picture" />
-                <p>Along with options to jump a particular conversation point, RQ Jump has 2 default positions.
-                    <ul class="list">
-                        <li class="list__item">1. <strong>No Jump:</strong> This is the default state of all RQ jumps.
-                            It means that the bot will go to the conversation element present in the chronological order
-                            below.</li>
-                        <li class="list__item">2. <strong>End of Conversation:</strong> When this option is selected,
-                            the Bot ends the conversation. </li>
-                    </ul>
-                </p><img src="./img/manual-images/rq-jump-3.jpg"
-                    alt="No Jump and End of Conversation jump type Illustration Picture" />
-            </div>
-            <div class="terms__section" id="helper">
-                <h2 class="terms__title">Helper Elements</h2>
-                <p>RamaBot has a set of helper elements to assist you in building conversations which create a
-                    human-like experience for the user. </p>
-                <div class="step__container">
-                    <div class="step">
-                        <h4 class="step__header">1. Custom Delay: </h4>
-                        <div class="step__body">
-                            <p class="step__text">Every bot element has a custom delay Helper element. This helps in
-                                creating a custom delay (defined in the number of seconds) to create humanized content
-                                delivery and also help in creating ample time for the user to read a text before the
-                                next text turns up. </p><img class="step__pic"
-                                src="./img/manual-images/helper-element-1.jpg"
-                                alt="Custom Delay in seconds Illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">2. Halt Conversation: </h4>
-                        <div class="step__body">
-                            <p class="step__text">Every bot element has a ‘halt conversation’ Helper Element. This is a
-                                switch. If turned on, this holds the conversation at that very point, till user wishes
-                                to continue conversation!</p><img class="step__pic"
-                                src="./img/manual-images/helper-element-2.jpg"
-                                alt="Halt conversation feature Illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">3. End Conversation:</h4>
-                        <div class="step__body">
-                            <p class="step__text">This too, is a switch. If turned on, this helper element shows a “End
-                                Conversation” button in the conversation interface and allows the user to end the
-                                conversation with the Bot from the front end.</p><img class="step__pic"
-                                src="./img/manual-images/helper-element-3.jpg"
-                                alt="End conversation feature Illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">4. Back:</h4>
-                        <div class="step__body">
-                            <p class="step__text">This switch, when turned on, shows a “Back” button in the conversation
-                                interface and allows the user to go back to the previous conversation point.</p><img
-                                class="step__pic" src="./img/manual-images/helper-element-4.jpg"
-                                alt="Show Back Button Illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">5. Skip:</h4>
-                        <div class="step__body">
-                            <p class="step__text">This switch, when turned on, shows a “skip” button in the conversation
-                                interface and allows the user to skip a conversation point. </p><img class="step__pic"
-                                src="./img/manual-images/helper-element-5.jpg"
-                                alt="Show Skip Button Illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">6. Swear Jar:</h4>
-                        <div class="step__body">
-                            <p class="step__text">To avoid abusive language and obscene conversations, We have created
-                                Swear Jar Helper Element. Swear Jar lets you create a library of abuses and allows you
-                                to let the set the bot reaction to it. </p><img class="step__pic"
-                                src="./img/manual-images/helper-element-6.jpg"
-                                alt="Show Skip Button Illustration Picture" />
-                            <p class="step__text">This is a multi-select text box. Fill this up with abuses, swear words
-                                you can think of. This lets Bot build a library of abuses.</p><img class="step__pic"
-                                src="./img/manual-images/helper-element-7.jpg"
-                                alt="Multi-Select text box Illustration Picture" />
-                            <p class="step__text">You enter the response you want your bot to give when it encounters an
-                                abuse during conversation.</p><img class="step__pic"
-                                src="./img/manual-images/helper-element-8.jpg"
-                                alt="Abuse response Illustration Picture" />
-                            <p class="step__text">This lets you guide your Bot to either end the conversation after it
-                                gets abused or continue despite of it.</p><img class="step__pic"
-                                src="./img/manual-images/helper-element-9.jpg"
-                                alt="Conversation after Abuse response Illustration Picture" />
-                        </div>
+                <div class="step">
+                    <h4 class="step__header">3. Trial Period</h4>
+                    <div class="step__body">
+                        <p class="step__text">YTo give you a taste of our service and quality of the tool, we
+                            have
+                            allotted a trial period for every package. You can use this period to evaluate the
+                            bot
+                            and its utility for your business.</p>
                     </div>
                 </div>
-            </div>
-            <div class="terms__section" id="installation">
-                <h2 class="terms__title">installation guide</h2>
-                <p>Ramabot can be installed on a website as a widget or can be embedded into the website pages. Once the
-                    bot is scripted, on the dashboard thumbnail.</p>
-                <div class="step__container">
-                    <div class="step">
-                        <h4 class="step__header">1. Look for an option by name “Copy”</h4>
-                        <div class="step__body"><img class="step__pic"
-                                src="./img/manual-images/installation-guide-1.jpg"
-                                alt="To show where copy button lies Picture" /></div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">2. Adding a widget</h4>
-                        <div class="step__body">
-                            <p class="step__text">Upon clicking, a pop-up comes up. Please click on “Copy widget”. Now,
-                                the widget code snippet is copied to your clipboard. Paste this snippet in your website
-                                code.</p><img class="step__pic" src="./img/manual-images/installation-guide-2.jpg"
-                                alt="How to add a widget illustration Picture" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">3. Embedding Bot into your webpage:</h4>
-                        <div class="step__body">
-                            <p class="step__text">Click on “Copy Iframe” button in the pop-up. Now, the Iframe code
-                                snippet is copied to your clipboard. Paste this snippet into the webpage code where you
-                                want to run the bot.</p><img class="step__pic"
-                                src="./img/manual-images/installation-guide-3.jpg"
-                                alt="How to copy IFrame illustration Picture" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="terms__section" id="chat-transcript">
-                <h2 class="terms__title">Accessing Chat Transcript</h2>
-                <p>RamaBot not only allows you to download Bot chat transcript in CSV format, it also allows you to
-                    integrate bot transcript into google sheets. </p>
-                <div class="step__container">
-                    <div class="step">
-                        <h4 class="step__header">1. Downloading Transcript in CSV format</h4>
-                        <div class="step__body">
-                            <p class="step__text">In the Dashboard, click on “Edit” option of the Bot under
-                                consideration. On the left-hand side, navigate to the option by name “Responses” and
-                                click on it.</p><img class="step__pic" src="./img/manual-images/access-1.jpg"
-                                alt="First step to access chat transcript" />
-                            <p class="step__text">Now, click on the “Export CSV” button found on the right-hand side of
-                                the page. This will automatically start downloading the bot transcript in CSV to your
-                                local machine.</p><img class="step__pic" src="./img/manual-images/access-2.jpg"
-                                alt="How to copy CSV file" />
-                        </div>
-                    </div>
-                    <div class="step">
-                        <h4 class="step__header">2. Integration</h4>
-                        <div class="step__body">
-                            <p class="step__text">In the Dashboard, Click on “Edit” option of the Bot under
-                                consideration. On the left-hand side, navigate to the option by name “Integrations” and
-                                click on it.</p><img class="step__pic" src="./img/manual-images/access-3.jpg"
-                                alt="How to get into integration page illustration Picture" />
-                            <p class="step__text">You will now see a Google Sheets thumbnail. Upon clicking the
-                                thumbnail, it will interface will prompt you to connect with your google account.
-                                Connect with your preferred google account.</p><img class="step__pic"
-                                src="./img/manual-images/access-4.jpg"
-                                alt="Google Sheet Export option illustration Picture" />
-                            <p class="step__text">Google will verify your account, and upon verification prompts to
-                                grant permission to Ramabot to change and update your google spreadsheets. Please click
-                                'allow’. This grants us permission to insert Bot transcript data into your google
-                                spreadsheets.</p><img class="step__pic" src="./img/manual-images/access-5.jpg"
-                                alt="Google verification result for Sheet illustration Picture" />
-                            <p class="step__text">Now, Enter a filename and click on create. This sheet will contain Bot
-                                chat transcript.</p><img class="step__pic" src="./img/manual-images/access-6.jpg"
-                                alt="File name to download the sheet illustration Picture" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="terms__billing" id="billing">
-                <h2 class="terms__title">Billing</h2>
-                <p>We have created packages tailor-made for small and medium scale businesses. You can begin by
-                    selecting package appropriate for you. Every package has a trial period associated with it. During
-                    this time, you can test the Bot for its utility and experience the Bot engagement.</p>
-                <p>Once the trial period is over, you can to subscribe to the package you have selected by paying either
-                    a monthly fee or a yearly fee. This fee will be non-refundable. </p>
             </div>
         </div>
-    </div>
-</body>
+    </section>
+    <section id="section-2">
+      <h1>Section 2</h1>
+      <p>Ratione nulla nam, ipsa dignissimos corrupti veniam nostrum, laudantium asperiores sequi numquam placeat velit voluptate in praesentium non labore unde incidunt laborum maxime quae magni.</p>
+    </section>
+    <section id="section-3">
+      <h1>Section 3</h1>
+      <p>Soluta quibusdam ad nostrum vel voluptate delectus sequi dolores quia quaerat officia corrupti, aperiam fugit facere debitis repudiandae praesentium sapiente inventore repellendus, nemo commodi alias!</p>
+    </section>
+    <section id="section-4">
+      <h1>Section 4</h1>
+      <p>Aliquid aliquam magnam ducimus similique obcaecati, unde exercitationem laborum incidunt, quas in ipsum inventore nostrum? Blanditiis optio cumque earum iste odio! Alias sint accusamus repudiandae.</p>
+    </section>
+    <section id="section-5">
+      <h1>Section 5</h1>
+      <p>Officia ipsum fugit iure eaque quisquam error tempore earum enim illum, delectus officiis incidunt corrupti aliquid nam quas perspiciatis eveniet doloremque quod labore? Doloremque, ipsum?</p>
+    </section>
+    <section id="section-6">
+      <h1>Section 6</h1>
+      <p>Aperiam repellat dignissimos fugiat possimus esse, suscipit neque nisi libero alias obcaecati ipsam, porro illo corrupti nostrum reprehenderit unde, illum in laudantium impedit. Modi, veniam.</p>
+    </section>
+    <section id="section-7">
+      <h1>Section 7</h1>
+      <p>Cum asperiores temporibus itaque consequatur quod inventore, quia quis explicabo dicta esse minus voluptatem reiciendis eveniet animi, necessitatibus illum dolorem doloremque repellat placeat, dolores eaque.</p>
+    </section>
+    <section id="section-8">
+      <h1>Section 8</h1>
+      <p>Optio qui, omnis itaque rerum iusto molestiae necessitatibus deleniti quod tenetur id perspiciatis voluptatum dolorum quisquam eius ipsum non architecto labore! Distinctio, tenetur. Officiis, necessitatibus?</p>
+    </section>
+    <section id="section-9">
+      <h1>Section 9</h1>
+      <p>Rem iste iure blanditiis excepturi esse nisi corrupti sequi, illo, laborum quo quis quaerat assumenda perspiciatis quod fuga vel laudantium doloribus architecto tempora omnis earum!</p>
+    </section>
+  </main>
+  
+  <footer>
+    &copy;2018 Footer
+  </footer>
+  
+  <script>
+  
+  
 
+let mainNavLinks = document.querySelectorAll("nav ul li a");
+let mainSections = document.querySelectorAll("main section");
+
+let lastId;
+let cur = [];
+
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+
+  mainNavLinks.forEach(link => {
+    let section = document.querySelector(link.hash);
+
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      link.classList.add("current");
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});
+
+
+  </script>
+</body>
 </html>
