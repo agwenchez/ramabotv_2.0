@@ -25,6 +25,15 @@
 
 -------------------------------------------------
 */
+
+
+
+/* some primary styling */
+
+html {
+  scroll-behavior: smooth;
+}
+/* end of primary styling */
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:300,400,700,900|Titillium+Web:300,400,600,700&display=swap");
 
