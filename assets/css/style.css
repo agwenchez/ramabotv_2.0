@@ -213,6 +213,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
+  overflow-x: hidden'
 }
 
 /* line 9, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -3678,7 +3679,7 @@ hero-btn {
 }
 
 .slider-area4 {
-  background-image: url(../images/pricing-back.jpg);
+  background-image: url(../images/about-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
