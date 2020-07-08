@@ -3600,7 +3600,7 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 900px;
+  height: 700px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3631,7 +3631,7 @@ hero-btn {
 
   /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 650px;
+    height: 550px;
   }
 }
 
@@ -3710,6 +3710,7 @@ hero-btn {
   /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
     padding-left: 100px;
+    padding-top: 150px;
   }
 }
 
